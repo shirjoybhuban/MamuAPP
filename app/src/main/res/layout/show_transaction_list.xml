@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewShopkeeperName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textFontWeight="400"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewTotalProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/textViewPaymentStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+               android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:visibility="invisible" />
+
+
+
+
+</RelativeLayout>
+
+
+<!--<TextView-->
+<!--android:id="@+id/textView"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+
+
+<!--android:layout_alignTop="@+id/textViewShopkeeperName"-->
+<!--android:layout_toEndOf="@+id/textView7"-->
+<!--android:text="Mama :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/textView6"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+
+
+
+<!--android:text="Total Price :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/textView7"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+
+
+
+<!--android:text="Total Product :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/textView8"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+
+<!--android:text="Date :" />-->

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mamuApp</string>
+    <string name="facebook_app_id">203834326943135</string>
+    <string name="fb_login_protocol_scheme">fb203834326943135</string>
+    <string name="title_activity_otp_info">OtpInfoActivity</string>
+    <string name="title_activity_otp_data">OtpDataActivity</string>
+    <string name="title_activity_info_otp">InfoOtpActivity</string>
+    <string name="title_activity_sample">SampleActivity</string>
+
+</resources>
